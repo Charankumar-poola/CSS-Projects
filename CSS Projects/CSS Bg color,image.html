@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image & Colors</title>
+    <style>
+        /* Applying background image to the whole page */
+        body {
+            background-image: url('https://source.unsplash.com/1600x900/?nature'); /* Replace with your image URL */
+            background-size: cover; /* Cover the entire page */
+            background-repeat: no-repeat; /* Prevent image repetition */
+            background-attachment: fixed; /* Fix background while scrolling */
+            color: white; /* Text color */
+            text-align: center;
+            display:flexbox;
+        }
+
+        /* Adding background color to a section */
+        .container {
+            width: 60%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 235, 88, 0.445); /* Dark transparent background */
+            border-radius: 10px;
+        }
+        
+        body {
+        background-image: url("./Clg\ photo.jpg");
+        padding: 50px;
+        margin: 10px;
+
+        }
+        a {
+            color: white;
+            font-size: 20px;
+        }
+
+        body {margin: 0;}
+
+        ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#333;
+        }
+
+        ul.topnav li {float: left;}
+
+        ul.topnav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+        ul.topnav li a.active {background-color: #0fa99c;}
+
+        ul.topnav li.right {float: right;}
+
+        @media screen and (max-width: 600px) {
+        ul.topnav li.right,
+        ul.topnav li {float: none;}
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Welcome to SDHR College Website</h1>
+    </div>
+
+    <ul class="topnav">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">About Us</a></li>
+        <li><a href="#contact">Admissions</a></li>
+        <li class="right"><a href="#about"College Info></a></li>
+    </ul>
+</body>
+</html>
